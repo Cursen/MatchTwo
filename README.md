@@ -1,4 +1,4 @@
-#Match Two Game
+# Match Two Game
 
 This is a match two game of which basic HTML, CSS, and JS is used. This is a year 2 assigment, with 
 the main focus being implementing javascript functionality.
