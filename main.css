@@ -1,0 +1,106 @@
+body{
+    background-image: url('./assets/wood background.jpg');
+    background-size: 100% auto;
+}
+.ahead{
+    background: lightgreen;
+}
+.behind{
+    background: red;
+}
+div{
+    text-align: center;
+}
+.p1{
+    background: lightskyblue;
+}
+.p2{
+    background: orange;
+}
+.cards-container{
+    width:33%;
+}
+.card-box{
+    height: 21vh;
+    width: auto;
+    perspective: 800px;
+    position: relative;
+    cursor: pointer;
+    margin:0.2em;
+}
+.card-box2{
+    height: 16.5vh;
+    width: auto;
+    perspective: 800px;
+    position: relative;
+    cursor: pointer;
+    margin:0.2em;
+}
+.card{
+    width:100%;
+    height:100%;
+    position:relative;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+}
+.front{
+    border:50px;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./assets/card-back.png);
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center center;
+}
+.back{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    backface-visibility: hidden;
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center center;
+    transform: rotateY(180deg);
+}
+.card.flipped{
+    transform: rotateY(180deg);
+}
+.heart{
+    background-size: cover;
+    background-image: url(./assets/heart.png);
+}
+.boat{
+    background-image: url(./assets/boat.jpg);
+}
+.car{
+    background-image: url(./assets/car.png);
+}
+.troll{
+    background-image: url(./assets/troll.jpg);
+}
+.brunost{
+    background-image: url(./assets/brunost.jpg);
+}
+.fjord{
+    background-image: url(./assets/fjord.jpg);
+}
+.genser{
+    background-image: url(./assets/genser.jpg);
+}
+.ski{
+    background-image: url(./assets/ski.jpg);
+}
+.money{
+    background-image: url(./assets/money.jpg);
+}
+.pc{
+    background-image: url(./assets/pc.jpg);
+}
+.prePicked{
+    filter: brightness(50%);
+}
+.fireWorks{
+    background-image: url(./assets/fireWork.gif);
+}
